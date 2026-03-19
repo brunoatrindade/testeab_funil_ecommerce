@@ -1,14 +1,14 @@
-## Otimização de Receita em e-commerce. Priorização de Hipóteses e Análise de Teste A/B.
+## Otimização de Receita em e-commerce. Priorização de Hipóteses para aumento de lucro e Análise de Teste A/B.
 
 Este projeto simula um cenário real onde atuei como Analista de Dados em uma grande loja online. O objetivo foi identificar, priorizar e testar hipóteses para aumentar a receita do e-commerce através de rigor estatístico e visão de negócio.
 
 ### Tecnologias e Metodologias Usadas.
 
-Linguagem: Python, SQL
-Bibliotecas: Pandas, Matplotlib, Seaborn, SciPy (Stats)
-Frameworks de Priorização: ICE e RICE
-Testes Estatísticos: Teste de Mann-Whitney U (U-Test)
-Conceitos: Conversão acumulada, Ticket Médio, Outliers (Percentis) e Significância Estatística.
+-Linguagem: Python, SQL
+-Bibliotecas: Pandas, Matplotlib, Seaborn, SciPy (Stats)
+-Frameworks de Priorização: ICE e RICE
+-Testes Estatísticos: Teste de Mann-Whitney U (U-Test)
+-Conceitos: Conversão acumulada, Ticket Médio, Outliers (Percentis) e Significância Estatística.
 
 ### Parte 1: Priorização de Hipóteses
 Trabalhei com o departamento de Marketing para avaliar 9 hipóteses. A transição do framework ICE para o RICE foi fundamental para a estratégia.
