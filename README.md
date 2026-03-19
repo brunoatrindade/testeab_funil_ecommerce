@@ -22,11 +22,16 @@ Após rodar o experimento, realizei um saneamento rigoroso nos dados, removendo 
 Analisei a receita e o tamanho médio do pedido (Ticket Médio) ao longo do tempo.
 
 Receita: O Grupo B apresentou um salto significativo em determinado ponto, sugerindo a presença de pedidos anômalos ou uma vantagem competitiva real.
+
 Conversão: A taxa de conversão do Grupo B estabilizou em um nível superior ao do Grupo A, indicando maior eficiência no funil de vendas.
 
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/9249bce7-76c5-478e-8d45-e9bfa1389763" />
 
+O gráfico AOV ajuda a visulizar se a diferença na receita é impulsionada por um volume maior de pedidos com mais usuários comprando, ou por pedidos mais caros de alguns usuários.
+
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/46cfa0f8-558a-4894-8701-830d57397047" />
+
+O resultado do gráfico de Taxa de Conversão demonstra curvas mais suaves, que me parece ser menos afetados a outliers. O grupo B está com suas curvas mais acima em relação ao grupo A, e se mantém. Esse resultado demonstra que o grupo B pode converter mais visitantes em compradores por conta do número maior de usuários. Fato é que o gráfico de Taxa de Conversão Acumulada é fundamentalmente diferente dos gráficos de Receita e AOV.
 
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/33b07445-43f5-438a-9448-afe1aa8d6510" />
 
