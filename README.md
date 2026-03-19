@@ -4,7 +4,7 @@ Este projeto simula um cenário real onde atuei como Analista de Dados em uma gr
 
 ### Tecnologias e Metodologias Usadas.
 
--Linguagem: Python, SQL
+- Linguagem: Python, SQL
 -Bibliotecas: Pandas, Matplotlib, Seaborn, SciPy (Stats)
 -Frameworks de Priorização: ICE e RICE
 -Testes Estatísticos: Teste de Mann-Whitney U (U-Test)
@@ -24,6 +24,7 @@ Analisei a receita e o tamanho médio do pedido (Ticket Médio) ao longo do temp
 
 Receita: O Grupo B apresentou um salto significativo em determinado ponto, sugerindo a presença de pedidos anômalos ou uma vantagem competitiva real.
 Conversão: A taxa de conversão do Grupo B estabilizou em um nível superior ao do Grupo A, indicando maior eficiência no funil de vendas.
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/9249bce7-76c5-478e-8d45-e9bfa1389763" />
 
 #### 2. Tratamento de Anomalias (Outliers)
 Para não distorcer os resultados, calculei os percentis 95 e 99:
