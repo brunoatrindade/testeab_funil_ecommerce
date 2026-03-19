@@ -39,12 +39,14 @@ O resultado do gráfico de Taxa de Conversão demonstra curvas mais suaves, que 
 Para não distorcer os resultados, calculei os percentis 95 e 99:
 
 Número de pedidos: Defini o ponto de corte para usuários com comportamento atípico.
+
 Preço dos pedidos: Identifiquei pedidos de valor extremo que estavam "puxando" a média para cima artificialmente.
 
 #### 3. Testes de Significância Estatística (Mann-Whitney U)
 Utilizei o teste não-paramétrico de Mann-Whitney para comparar os grupos A e B, tanto com dados brutos quanto com dados filtrados:
 
 Conversão: Encontrei diferença estatisticamente significativa em ambos os cenários (p-value < 0.05). O Grupo B é o líder claro em conversão.
+
 Ticket Médio: Não houve diferença estatisticamente significativa após a remoção dos outliers, indicando que o aumento na receita veio do volume de vendas (conversão) e não de pedidos mais caros.
 
 ## Conclusão de Negócio
@@ -52,6 +54,16 @@ Decisão: Parar o teste e declarar o Grupo B como vencedor.
 
 O teste demonstrou que as alterações implementadas no Grupo B aumentaram significativamente a taxa de conversão da loja online. Embora o ticket médio tenha permanecido estável, o ganho em escala de usuários convertidos justifica a implementação definitiva da hipótese testada.
 
+A conclusão final é que o Grupo B é claramente o líder, pois ele melhora drasticamente a conversão sem prejudicar o valor médio do pedido, tornando a sua implementação imediata a escolha mais lucrativa e estatisticamente justificada para o negócio, sendo portanto o Grupo B líder na testagem.
+
+Para essa decisão, minha justificativa é de que a variante B demonstrou um aumento na Taxa de Conversão que é estatisticamente significativo. 
+
+## Ações recomendadas (próximos passos de negócio para o e-commerce).
+Para completar o ciclo do Teste A/B, sugiro algumas ações de negócio a serem tomadas. Uma delas é a implementação imediata da variante B para 100% dos usuários, substituindo o Grupo A (Controle). Outro ponto é o monitoramento, o desempenho deve ser monitorado por algumas semanas após a implementação para garantir que o lift (melhoria) de 18.95% se mantenha no ambiente de produção, o que é conhecido como Teste AA pós-implementação.
+
+E por fim, como a variante B resolveu o problema de conversão quanto ao volume de pedidos, a próxima prioridade da loja online no Teste A/B deve focar em aumentar o AOV (Ticket Médio), que ainda está estagnado, aplicando ações como por exemplo, testar novas recomendações de produtos ou ofertas de frete grátis por valor.
+
+
 ## Como visualizar o projeto
-O código completo está no arquivo .ipynb deste repositório.
-Os dados utilizados (processados) estão em visits_us.csv.
+- O código completo está no arquivo .ipynb deste repositório.
+- Os dados utilizados (processados) estão em visits_us.csv.
