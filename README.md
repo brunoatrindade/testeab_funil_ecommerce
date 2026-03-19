@@ -5,14 +5,13 @@ Este projeto simula um cenário real onde atuei como Analista de Dados em uma gr
 ### Tecnologias e Metodologias Usadas.
 
 - Linguagem: Python, SQL
--Bibliotecas: Pandas, Matplotlib, Seaborn, SciPy (Stats)
--Frameworks de Priorização: ICE e RICE
--Testes Estatísticos: Teste de Mann-Whitney U (U-Test)
--Conceitos: Conversão acumulada, Ticket Médio, Outliers (Percentis) e Significância Estatística.
+- Bibliotecas: Pandas, Matplotlib, Seaborn, SciPy (Stats)
+- Frameworks de Priorização: ICE e RICE
+- Testes Estatísticos: Teste de Mann-Whitney U (U-Test)
+- Conceitos: Conversão acumulada, Ticket Médio, Outliers (Percentis) e Significância Estatística.
 
 ### Parte 1: Priorização de Hipóteses
-Trabalhei com o departamento de Marketing para avaliar 9 hipóteses. A transição do framework ICE para o RICE foi fundamental para a estratégia.
-O "Pulo do Gato": enquanto a hipótese de "Promoções de Desconto" liderava no ICE, ela caiu no ranking RICE.
+Trabalhei com o departamento de Marketing para avaliar 9 hipóteses. A transição do framework ICE para o RICE foi fundamental para a estratégia. O "Pulo do Gato": enquanto a hipótese de "Promoções de Desconto" liderava no ICE, ela caiu no ranking RICE.
 
 Vencedora: A hipótese "Adicionar um formulário de inscrição em todas as páginas principais" assumiu a liderança (RICE: 112.0) devido ao seu alcance máximo (Reach 10), garantindo que o esforço fosse aplicado onde afetaria o maior número de usuários.
 
@@ -24,7 +23,12 @@ Analisei a receita e o tamanho médio do pedido (Ticket Médio) ao longo do temp
 
 Receita: O Grupo B apresentou um salto significativo em determinado ponto, sugerindo a presença de pedidos anômalos ou uma vantagem competitiva real.
 Conversão: A taxa de conversão do Grupo B estabilizou em um nível superior ao do Grupo A, indicando maior eficiência no funil de vendas.
+
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/9249bce7-76c5-478e-8d45-e9bfa1389763" />
+
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/46cfa0f8-558a-4894-8701-830d57397047" />
+
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/33b07445-43f5-438a-9448-afe1aa8d6510" />
 
 #### 2. Tratamento de Anomalias (Outliers)
 Para não distorcer os resultados, calculei os percentis 95 e 99:
