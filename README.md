@@ -35,6 +35,10 @@ O resultado do gráfico de Taxa de Conversão demonstra curvas mais suaves, que 
 
 <img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/33b07445-43f5-438a-9448-afe1aa8d6510" />
 
+O gráfico abaixo da direfença relativa acumulada na Taxa de Conversão é a prova visual mais convincente do sucesso da variante B na métrica de comportamento do usuário. A linha da diferença relativa, após a instabilidade inicial, se mantém consistentemente acima do zero durante a maior parte do teste, demonstrando a vitória clara da Variante B em relação ao Controle A. O resultado confirma que a alteração implementada na Variante B é eficaz em incentivar mais visitantes a se tornarem compradores. Isso valida a escolha de priorização feita com RICE, que selecionou uma hipótese de alto alcance. Este gráfico contrasta fortemente com o gráfico da Diferença Relativa do AOV, que era caótico e distorcido por outliers. A diferença clara e estável na conversão sugere que o teste é vencedor na métrica de volume de transações, mas ainda precisamos confirmar o impacto financeiro. A diferença é visualmente clara, mas a decisão final de implementá-lo permanentemente depende da Significância Estatística. Além disso, o Ticket Médio (AOV) ainda está em questão.
+
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/43a19abc-b4ae-43ea-91d0-c2eb12e2a7f4" />
+
 #### 2. Tratamento de Anomalias (Outliers)
 Para não distorcer os resultados, calculei os percentis 95 e 99:
 
